@@ -5,6 +5,7 @@ import PrPrac from './PrPrac';
 import PracType from './PracType';
 
 const App = () => {
+	/* eslint-disable no-unused-vars */
 	const banana = {
 		color: 'yellow',
 		taste: 'sweet',
