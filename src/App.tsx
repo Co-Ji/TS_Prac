@@ -1,20 +1,22 @@
-import React from "react";
-import "./App.css";
-import Prac from "./Prac";
-import PrPrac from "./PrPrac";
+import React from 'react';
+import './App.css';
+import Prac from './Prac';
+import PrPrac from './PrPrac';
+import PracType from './PracType';
 
-function App() {
-    const banana = {
-        color: "yellow",
-        taste: "sweet",
-    };
+const App = () => {
+	const banana = {
+		color: 'yellow',
+		taste: 'sweet',
+	};
 
-    return (
-        <React.Fragment>
-            <Prac />
-            <PrPrac />
-        </React.Fragment>
-    );
-}
+	return (
+		<div>
+			<PracType />
+			<Prac />
+			<PrPrac />
+		</div>
+	);
+};
 
 export default App;

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const PrPrac = () => {
-    return <div>prprac</div>;
+	return <div>prprac</div>;
 };
 
 export default PrPrac;
