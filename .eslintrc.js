@@ -16,14 +16,14 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
-	plugins: ['react', '@typescript-eslint'],
+	plugins: ['react', '@typescript-eslint', 'better-styled-components'],
 	rules: {
 		'react/jsx-filename-extension': [
 			2,
 			{ extensions: ['.js', '.jsx', '.ts', '.tsx'] },
 		],
 		'prettier/prettier': ['error', { endOfLine: 'auto' }],
-		'import/no-unresolved': [2, { caseSensitive: false }],
+		'import/no-unresolved': 0,
 		'react/function-component-definition': [
 			2,
 			{ namedComponents: 'arrow-function' },
@@ -38,6 +38,8 @@ module.exports = {
 				tsx: 'never',
 			},
 		],
+		'react/jsx-fragments': 0,
+		'better-styled-components/sort-declarations-alphabetically': 0,
 	},
 	settings: {
 		'import/resolver': {

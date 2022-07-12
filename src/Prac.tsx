@@ -1,23 +1,18 @@
 import React from 'react';
 
 const Prac = () => {
+	/* eslint-disable no-unused-vars */
 	const abc = 'abc';
 	const abcd = 'abcd';
 	const ab = {
 		ab: abc,
-		abcd: abcd,
 	};
 	const abcde = {
 		ab: abc,
-		abcd: abcd,
 	};
 	const fruit = ['apple', 'banana', 'grape'];
 
-	const eat = () => {
-		console.log(fruit);
-	};
-
-	console.log(abc, abcd, ab);
+	const eat = () => {};
 
 	return <div>hello</div>;
 };

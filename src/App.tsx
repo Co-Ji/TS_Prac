@@ -1,8 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './App.css';
 import Prac from './Prac';
 import PrPrac from './PrPrac';
 import PracType from './PracType';
+import PracTS from './PracTS';
 
 const App = () => {
 	const banana = {
@@ -12,9 +14,7 @@ const App = () => {
 
 	return (
 		<div>
-			<PracType />
-			<Prac />
-			<PrPrac />
+			<PracTS />
 		</div>
 	);
 };
